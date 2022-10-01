@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+
+    <title>E-court site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+a:link {
+  color: rgb(251, 255, 251);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color:transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+ 
+  button {
+    display: block;
+    height: 60px;
+    width: 100px;
+  }
+  ul{
+    list-style-type: none;
+  }
+
+  li{
+    padding: 8px;
+  }
+  #scroll-container {
+  border: 3px solid black;
+  border-radius: 5px;
+  height: 100px;
+  overflow: hidden;
+}
+
+#scroll-text {
+  height: 100%;
+  text-align: center;
+  
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 5s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateY(100%); }
+  to { -moz-transform: translateY(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+#header-div {
+        background-color: rgba(140, 132, 132, 0.379);
+        margin-bottom: 5px;
+}
+#scroll-container{
+  height: 550px;
+  width: 300px;
+  
+}
+#block {
+  padding: 8px;
+  border-top: 5px solid rgb(28, 26, 26);
+   margin: auto;
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom: 5px;
+}
+
+.carousel-inner img {
+  width: 100%;
+ height: 100%;
+}
+. {
+  background-color: lightgray;
+}
+
+
+</style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col-md-4">
+      <img src="file:///C:/Users/dwij%20V%20naranje/Downloads/logo.png" height="100px;" width="100px;">
+      </div>
+      <div class="col-md-8">
+        <h1> Case Prioritization Portal</h1>
+     </div>
+        </div>
+        </div>
+        <hr style="border-color:black;">
+
+
+    
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="btn" Style = "border : 2px solid ; position: absolute;">
+          <ul>
+            <li><a href="file:///C:/sih%20demo%20trials/project%20demo/1st%20page.html"><button type="button" class="btn btn-info">HOME</button></a> </li>
+              <li><a href="https://njdg.ecourts.gov.in/njdgnew/index.php"><button type="button" class="btn btn-info">NJDG</button></a></li>
+              <li><a href="https://ecommitteesci.gov.in/division/case-information-system-cis/"><button type="button" class="btn btn-info">CIS</button></a></li>
+              <li><a href="https://main.sci.gov.in/"><button type="button" class="btn btn-info">SUPREME COURT</button></a></li>
+              <li><a href="https://bombayhighcourt.nic.in/index.php"><button type="button" class="btn btn-info">HIGH COURT</button></a></li>
+              <li><button type="button" class="btn btn-info"><a href="https://districts.ecourts.gov.in/">DISTRICT COURT</a></button></li>
+              <li><button type="button" class="btn btn-info"><a href="file:///F:/Documents/SIH/page5.html">VIEW LIST</a></button></li>
+            <li><button type="button" class="btn btn-info"><a href="file:///F:/Documents/SIH/login%20page%20new.html.html">LOGIN</a></button></li>
+            
+
+            </ul>        
+            </div> 
+        </div>
+
+          <div class="col-md-6">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+              <!-- Indicators -->
+              <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active" Style = "border : 2px solid">
+                  <img src= "https://mcmscache.epapr.in/post_images/website_350/post_18389809/full.jpg"alt="1st image" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                  <img src="http://thewire.in/wp-content/uploads/2015/06/24.jpg" alt="2nd image" width="1100" height="500">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://blog.ipleaders.in/wp-content/uploads/2021/02/948219-supreme-courtfile.jpg" alt="3rd image" width="1100" height="500">
+                </div>
+              </div>
+              
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+
+            <div style="margin-top: 30px;">
+              <button type="button" class="btn btn-secondary" length="100px" width="50px">32.6 M</button>
+              <button type="button" class="btn btn-success">55 M</button>
+              <button type="button" class="btn btn-danger">300K</button>
+              <button type="button" class="btn btn-warning">123K</button>
+              <button type="button" class="btn btn-info">12M</button>
+              <button type="button" class="btn btn-light">L123K</button>
+              <button type="button" class="btn btn-dark">23M</button>
+              <button type="button" class="btn btn-secondary" style ="margin-top: 5px;">32.6 M</button>
+              <button type="button" class="btn btn-success"style ="margin-top: 5px;">55 M</button>
+              <button type="button" class="btn btn-danger"style ="margin-top: 5px;">300K</button>
+              <button type="button" class="btn btn-warning"style ="margin-top: 5px;">123K</button>
+              <button type="button" class="btn btn-info"style ="margin-top: 5px;">12M</button>
+              <button type="button" class="btn btn-light"style ="margin-top: 5px;">L123K</button>
+              <button type="button" class="btn btn-dark"style ="margin-top: 5px;">23M</button>
+          </div>
+          </div>
+
+          <div>
+            <!--below text-->
+          </div>
+          <div class="col-md-3">
+            <div id="scroll-container">
+              <div id="scroll-text">
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-info" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+                <block type="block" class="btn btn-light" width="300Spx" length="400px">NEWS--NOTICES</block><br>
+              </div>
+            </div>
+            <div class = "col-md-3" style="text-align:center;">
+              <button type="button" class="btn btn-primary" width="60px" length="300px">MY MESSAGES</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </html>
