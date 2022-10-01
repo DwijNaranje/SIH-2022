@@ -1,0 +1,2 @@
+# SIH-2022
+"Courts are getting many cases and currently it is becoming challenging to prioritize those cases. A software/algorithm should be developed for prioritizing and allocations of dates to the cases based on the following parameters: - Time of filing of chargesheet - Severity of the crime and sections involved - Last hearing date - Degree of responsibility of the alleged perpetrators System should be free of impartiality ."
